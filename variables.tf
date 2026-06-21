@@ -19,7 +19,7 @@ variable "vm_name" {
 variable "vm_size" {
   description = "Size/SKU of the virtual machine"
   type        = string
-  default     = "Standard_B8s_v2"
+  default     = "Standard_D2s_v3"
 }
 
 variable "admin_username" {
