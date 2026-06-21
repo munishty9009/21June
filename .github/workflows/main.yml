@@ -13,18 +13,7 @@ on:
     paths:
       - "**"
       - ".github/workflows/main.yml"
-  workflow_dispatch:
-    inputs:
-      action:
-        description: "Terraform action to run"
-        required: true
-        default: "plan"
-        type: choice
-        options:
-          - plan
-          - apply
-          - destroy
-
+  
 env:
   TF_VERSION: "1.8.5"
   TF_WORKING_DIR: "."
