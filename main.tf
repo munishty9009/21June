@@ -20,14 +20,6 @@ terraform {
       version = "~> 3.6"
     }
   }
-
-  # Remote state - update with your storage account details
-  backend "azurerm" {
-    resource_group_name  = "rg-terraform-state"
-    storage_account_name = "sttfstate<unique_suffix>"
-    container_name       = "tfstate"
-    key                  = "prod/vm-lb/terraform.tfstate"
-  }
 }
 
 provider "azurerm" {
