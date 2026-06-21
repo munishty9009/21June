@@ -1,6 +1,5 @@
 name: Terraform - Azure Windows VM
 
-
 on:
   push:
     branches:
