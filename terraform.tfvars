@@ -15,6 +15,6 @@ environment           = "dev"
 
 tags = {
   project    = "my-project"
-  owner      = "your-name"
+  owner      = "Munish Tyagi"
   cost_center = "12345"
 }
