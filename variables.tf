@@ -7,7 +7,7 @@ variable "resource_group_name" {
 variable "location" {
   description = "Azure region for all resources"
   type        = string
-  default     = "Southeast Asia"
+  default     = "SouthEast Asia"
 }
 
 variable "vm_name" {
@@ -19,7 +19,7 @@ variable "vm_name" {
 variable "vm_size" {
   description = "Size/SKU of the virtual machine"
   type        = string
-  default     = "Standard_D2ds_v7"
+  default     = "Standard_B16pls_v2"
 }
 
 variable "admin_username" {
