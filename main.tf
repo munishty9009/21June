@@ -2,8 +2,15 @@
 # Root Module - Azure VM + Load Balancer
 # Standard: Enterprise-grade, modular, least-privilege
 ################################################################################
-
-
+locals {
+  common_tags = merge(
+    {
+      environment = var.environment
+      managed_by  = "terraform"
+    },
+    var.tags
+  )
+}
 
 ################################################################################
 # Resource Group
