@@ -2,7 +2,7 @@
 # NEVER commit terraform.tfvars to source control — add it to .gitignore
 
 resource_group_name   = "rg-windows-vm"
-location              = "East US"
+location              = "SouthEast Asia"
 vm_name               = "vm-windows-01"
 vm_size               = "Standard_B2s"
 admin_username        = "azureadmin"
