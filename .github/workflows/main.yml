@@ -27,7 +27,7 @@ on:
 
 env:
   TF_VERSION: "1.8.5"
-  TF_WORKING_DIR: "./terraform"
+  TF_WORKING_DIR: "."
   ARM_CLIENT_ID: ${{ secrets.ARM_CLIENT_ID }}
   ARM_CLIENT_SECRET: ${{ secrets.ARM_CLIENT_SECRET }}
   ARM_SUBSCRIPTION_ID: ${{ secrets.ARM_SUBSCRIPTION_ID }}
