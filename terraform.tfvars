@@ -4,7 +4,7 @@
 resource_group_name   = "rg-windows-vm"
 location              = "SouthEast Asia"
 vm_name               = "vm-windows-01"
-vm_size               = "Standard_B2s"
+vm_size               = "Standard_B16pls_v2"
 admin_username        = "azureadmin"
 admin_password        = "Evolym@123456"   # min 12 chars, upper+lower+digit+special
 os_disk_size_gb       = 128
